@@ -6,3 +6,12 @@ def boas_vindas
     puts "Começaremos o jogo agora, #{nome}"
     nome
 end
+
+def desenha(mapa)
+    puts mapa
+end
+
+def pede_movimento
+    puts "Para onde deseja ir?"
+    movimento = gets.strip
+end
